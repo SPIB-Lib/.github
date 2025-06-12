@@ -1,6 +1,6 @@
 <div align="center">
 
-# SPI-Birds Code Library
+# SPI-Birds Code Library [Beta]
 
 <a href="https://spibirds.org">
   <img src="https://assets.dryicons.com/uploads/icon/preview/6913/small_2x_65dd15db-6b26-4c6e-b3e5-eea8ad3c6a42.png" alt="Homepage" width="30" height="30" style="margin: 10 5px;">
@@ -16,7 +16,7 @@
 
 SPI-Birds is a resource hub for data and code related to studies of populations of individual birds. Follow the links above to visit our website, contact us via e-mail, or to follow us on social media. 
 
-Welcome to the SPI-Birds Code Library, a community-driven open-source LGPL-licensed code library *in development*, which aims to host scripts for data processing and analysis of SPI-Birds standardised data.
+Welcome to the SPI-Birds Code Library [Beta], a community-driven open-source LGPL-licensed code library *in development*, which aims to host scripts for data processing and analysis of SPI-Birds standardised data.
 This README provides an overview of citable code workflows and information on how to contribute to the code library as both a code developer and code reviewer:
 
 [Terms of Use](#terms-of-use)  
