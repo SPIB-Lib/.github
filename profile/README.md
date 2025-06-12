@@ -1,6 +1,6 @@
 <div align="center">
 
-# SPI-Birds Network and Database: Code Library
+# SPI-Birds Code Library
 
 <a href="https://spibirds.org">
   <img src="https://assets.dryicons.com/uploads/icon/preview/6913/small_2x_65dd15db-6b26-4c6e-b3e5-eea8ad3c6a42.png" alt="Homepage" width="30" height="30" style="margin: 10 5px;">
@@ -8,17 +8,19 @@
 <a href="mailto:spibirds@nioo.knaw.nl">
   <img src="https://assets.dryicons.com/uploads/icon/svg/8069/f5795797-ab7a-4600-86b2-89cb508324e9.svg" alt="Email" width="30" height="30" style="margin: 10 5px;">
 </a>
-<a href="https://twitter.com/spibirds">
-  <img src="https://assets.dryicons.com/uploads/icon/preview/8381/small_2x_5cb9b82f-9d1a-4f56-b517-32fcea848f27.png" alt="Twitter" width="30" height="30" style="margin: 10 5px;">
+<a href="https://bsky.app/profile/spibirds.bsky.social">
+	<svg width="30" height="30" viewBox="0 0 600 530" version="1.1" xmlns="http://www.w3.org/2000/svg" alt="Bluesky">
+      <path d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z" fill="currentColor" />
+    </svg>
 </a>
 
 SPI-Birds is a resource hub for data and code related to studies of populations of individual birds. Follow the links above to visit our website, contact us via e-mail, or to follow us on social media. 
 
-Welcome to the SPI-Birds Code Library repository, a community-driven open-source LGPL-licensed R code library providing scripts for data processing and analysis of SPI-Birds standardised data.
+Welcome to the SPI-Birds Code Library, a community-driven open-source LGPL-licensed code library *in development*, which aims to host scripts for data processing and analysis of SPI-Birds standardised data.
 This README provides an overview of citable code workflows and information on how to contribute to the code library as both a code developer and code reviewer:
 
 [Terms of Use](#terms-of-use)  
-[Guide of available code](#guide-of-available-code)  
+[Guide of available codes](#guide-of-available-codes)  
 [Information for code developers](#information-for-code-developers)  
 [Information for code reviewers](#information-for-code-reviewers)
 
@@ -37,14 +39,6 @@ There's a stable version of the library (updated every 6months or once a year or
 -->
 
 
-# Releases
-
-Latest release: [SPI-Birds Code Library 0.1](github.com/SPI-Birds)  
-This Zenodo repository includes fully documented, peer-reviewed, and standardised code and information on how to cite the code in this library. Each new version includes a changelog.
-
-Beta-version: [SPI-Birds Code Library on GitHub](https://github.com/SPI-Birds/codelibrary).  
-This GitHub repository includes additional code that is currently undergoing peer-review.
-
 # SPI-Birds Code Library: Introduction
 
 The SPI-Birds Network and Database was established to facilitate access to data and collaborations between researchers working on populations on individually-marked birds. We are extending the functionality of SPI-Birds by building a library of peer-reviewed FAIR code for processing and analysing SPI-Birds standard data. 
@@ -55,7 +49,7 @@ We value transparency in research and encourage community participation: Please 
 
 
 
-# Terms of Use: Code Licensing
+# Terms of Use: Code Licensing<a id='terms-of-use'></a>
 
 The SPI-Birds Code Library is distributed under the GNU Lesser General Public License Version 3.0 (LGPL-3.0); the full text of the license can be found here: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
 
@@ -78,27 +72,17 @@ Incompatible Licenses: Strong copyleft licenses are not compatible with LGPL; fo
 
 Example usecases: You can freely incorporate MIT-licensed code into your LGPL library, but you must include the MIT license text and attribution. Use dynamic linking when combining LGPL libraries with proprietary (closed-source) or other non-(L)GPL software to avoid licensing conflicts. If you modify the LGPL-licensed library itself or its open-source code, those modifications must be licensed under the same license as the original, i.e. LGPL.
 
-
-**how to add license (file) manually**
-
-
 # Guide of available codes
-
-<b>tbc; content and cataloguing to be discussed with the French team</b>
 
 Pipelines to process the raw, primary data into the structure described in the [SPI-Birds standard data protocol](https://github.com/SPI-Birds/documentation/tree/master/standard_protocol) can be found in the [pipelines repository](https://github.com/SPI-Birds/pipelines). 
 
-
-<b>Warranty statement</b>
+**Warranty statement**
 The code published here has undergone peer-review to increase reusability, but may contain errors; SPI-Birds does not provide a guarantee of accuracy. 
----
----
 
+---
 
 # Submit code for peer review
 Inside the Code Library, go to the [Code Review](tbc) folder, open a pull request, and request a reviewer. Alternatively, send code via email and the SPI-Birds editorial team will handle the process.
-
-<b>more detailed steps? also on how to request a reviewer?</b>
 
 Metadata may be provided as a seperate file, or in the code script header.
 
@@ -137,7 +121,6 @@ In addition to thorough commenting throughout the code, please make sure you pro
 You may use our example metadata file.
 
 ---
----
 
 # Funding
 
@@ -146,7 +129,7 @@ You may use our example metadata file.
 # Contribute to code review
 
 The general workflow to review code that you have been assigned to
-To contribute to this public repository, you have to fork it, clone your fork locally (i.e. work with a local version of the files), create a new branch for your changes, commit and push your changes, and finally open a pull request. 
+To contribute to this public repository, you have to fork it, clone your fork locally (i.e. work with a local version of the files), create a new branch for your changes, commit and push your changes, and finally open a pull request.
 
 Make a pull request to [this repo] to submit your code file. If you are not comfortable using GitHub, contact [email] to send the files via email.
 using templates: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
@@ -195,15 +178,6 @@ Join the SPI-Birds network: Sign up to ...
 
 We enthusiastically welcome community contributions -- from adding new code workflows for peer review or improving code and its documentation ([guidelines for code review](https://..)) !
 
-
----
-title: "code review "
-output: 
-  rmarkdown::md_document:
-    pandoc_args: [
-      "--wrap=none"
-    ]
----
 
 ## Review
 
